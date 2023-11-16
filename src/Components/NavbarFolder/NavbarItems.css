@@ -1,0 +1,31 @@
+.navbarItems{
+  position: relative;
+}
+
+.navbarItems .items{
+  position: absolute;
+  right: 0%;
+  max-width: 10rem;
+  width: 100%;
+  background-color: #F9D949;
+  text-align: center;
+  padding: 2rem;
+  height: 91vh;
+}
+
+.navbarItems .items ul li a{
+  display: block;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.5s linear;
+}
+
+.navbarItems .items ul li a:hover{
+  color: #00A9FF;
+  border-bottom: 1px solid #000;
+}
+
