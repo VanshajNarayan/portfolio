@@ -1,0 +1,41 @@
+.aboutSection{
+  background: url("https://images.pexels.com/photos/14936124/pexels-photo-14936124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.aboutSection .aboutHeading{
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.aboutSection .aboutHeading span{
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #F9D949;
+}
+
+.aboutSection .buttonsBox button{
+  border: none;
+  outline: none;
+  color: #00A9FF;
+  background-color: #F9D949;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.aboutSection .aboutdiv{
+  /* border: 2px solid rgb(15, 5, 5); */
+  max-width: 100rem;
+  width: 100%;
+  margin: 0 auto;
+}

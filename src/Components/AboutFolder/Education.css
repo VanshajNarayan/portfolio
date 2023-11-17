@@ -1,0 +1,231 @@
+.heading{
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  letter-spacing: 0.1rem;
+  color: #f1c40f;
+}
+
+.education-card{
+  color: #fff;
+  margin-top: 5rem;
+  max-width: 1000px;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.education-card .card{
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+.education-card .card::before{
+  display: block;
+  border-left: 1px solid #f1c40f;
+}
+
+.education-card .card::before{
+  content: " ";
+  height: 100%;
+  left: -44px;
+  opacity: .6;
+  position: absolute;
+  top: 0;
+}
+
+.education-card .card .bullet{
+  display: block;
+  border: 2px solid #f1c40f;
+  background-color: #f1c40f;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0%;
+  left: -5.1%;
+}
+
+.education-card .years{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.education-card .degree{
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.education-card .degree span{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.education-card .about-degree{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.05rem;
+  color: rgba(255, 255, 255, 0.705);
+}
+
+@media screen and (max-width: 1475px){
+  .education-card .card .bullet{
+    display: block;
+    border: 2px solid #f1c40f;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0%;
+    left: -4.7%;
+  }
+}
+
+@media screen and (max-width: 1375px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -38px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1275px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -35px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1175px){
+  .education-card .card .bullet{
+    display: block;
+    border: 2px solid #f1c40f;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0%;
+    left: -4.5%;
+  }
+}
+
+@media screen and (max-width: 1075px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -30px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 975px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -34px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 875px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -32px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 775px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -28px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 675px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -23px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -18px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 475px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -13px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .heading{
+    font-size: 3rem;
+  }
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -10px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .education-card .card::before{
+    content: " ";
+    height: 100%;
+    left: -6px;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+  }
+}
