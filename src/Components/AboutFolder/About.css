@@ -1,8 +1,4 @@
 .aboutSection{
-  background: url("https://images.pexels.com/photos/14936124/pexels-photo-14936124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: grid;
   place-items: center;
 }

@@ -1,0 +1,98 @@
+.contactSection .contactHeading{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: #F9D949;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.contactSection .contactInfo{
+  max-width: 100rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contactSection .contactInfo .info .infoIcons{
+  font-size: 2.4rem;
+  color: #F9D949;
+  margin-bottom: 1rem;
+}
+
+.contactSection .contactInfo .info .infoHeading{
+  font-size: 1.7rem;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.contactSection .contactInfo .info .infopara{
+  font-size: 1.2rem;
+  color: #0000006c;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-top: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.contactSection .contactBox{
+  max-width: 100rem;
+  margin: 0rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.contactSection .contactBox .box{
+  padding: 2rem;
+}
+
+.contactSection .contactBox .inputBox form{
+  text-align: center;
+}
+
+.contactSection .contactBox .inputBox form input{
+  display: block;
+  max-width: 38rem;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.contactSection .contactBox .inputBox form #textarea{
+  display: block;
+  max-width: 38rem;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+.contactSection .contactBox .inputBox form .inputBtn{
+  max-width: 10rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #F9D949;
+  color: #00A9FF;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+@media(width < 340px){
+  .contactSection .contactHeading{
+    font-size: 4rem;
+  }
+}

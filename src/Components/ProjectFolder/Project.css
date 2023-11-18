@@ -1,0 +1,69 @@
+.project_section .projectHeading{
+  text-align: center;
+  font-size: 5rem; 
+  color: #F9D949; 
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.project_section .projectPara{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  color: #000;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.project_section .projectBox{
+  max-width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project_section .projectBox .project{
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 20px 20px;
+}
+
+.project_section .projectBox .project img{
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project_section .projectBox .project .project_name{
+  font-size: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 0.05rem;
+  color: #00A9FF;
+  margin-top: 1rem;
+}
+
+.project_section .projectBox .project a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.9rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.project_section .projectBox .project a .arrowIcons{
+  color: #000;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 35%;
+  left: 120%;
+}
