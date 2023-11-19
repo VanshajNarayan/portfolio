@@ -34,6 +34,8 @@
 }
 
 .heroSection .heroBox .textBox .btn{
+  max-width: 10rem;
+  width: 100%;
   color: #00A9FF;
   background-color: #F9D949;
   font-size: 1.3rem;
@@ -44,6 +46,32 @@
   border: none;
   outline: none;
   margin-top: 1.3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection .heroBox .textBox .btn::before{
+  content: "Contact";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #00A9FF;
+  padding-top: 0.6rem;
+  color: #fff;
+  transition: transform 0.4s;
+  letter-spacing: 0.2rem;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.heroSection .heroBox .textBox .btn::before{
+  transform: scaleX(0);
+}
+
+.heroSection .heroBox .textBox .btn:hover::before{
+  transform: scaleX(1);
 }
 
 @media(width < 850px){

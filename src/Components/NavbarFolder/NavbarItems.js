@@ -36,6 +36,7 @@ const NavbarItems = ({ setShow, show }) => {
                   marginLeft: "2rem",
                   display: "block",
                 }}
+                onClick={() => setShow(!show)}
               />
             </a>
             <a
@@ -54,6 +55,7 @@ const NavbarItems = ({ setShow, show }) => {
                   marginLeft: "2rem",
                   display: "block",
                 }}
+                onClick={() => setShow(!show)}
               />
             </a>
             <a
@@ -72,6 +74,7 @@ const NavbarItems = ({ setShow, show }) => {
                   marginLeft: "2rem",
                   display: "block",
                 }}
+                onClick={() => setShow(!show)}
               />
             </a>
           </div>

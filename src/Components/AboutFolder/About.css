@@ -27,10 +27,60 @@
   font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutSection .buttonsBox .btn1::before{
+  content: "EDUCATION";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.68rem;
+  background: #00A9FF;
+  color: #fff;
+  transition: transform 0.4s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+
+}
+
+.aboutSection .buttonsBox .btn2::before{
+  content: "SKILL";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding-top: 0.68rem;
+  background: #00A9FF;
+  color: #fff;
+  transition: transform 0.4s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+
+}
+
+.aboutSection .buttonsBox .btn1::before{
+  transform: scaleX(0);
+}
+
+.aboutSection .buttonsBox .btn2::before{
+  transform: scaleX(0);
+}
+
+.aboutSection .buttonsBox .btn1:hover::before{
+  transform: scaleX(1);
+}
+
+.aboutSection .buttonsBox .btn2:hover::before{
+  transform: scaleX(1);
 }
 
 .aboutSection .aboutdiv{
-  /* border: 2px solid rgb(15, 5, 5); */
   max-width: 100rem;
   width: 100%;
   margin: 0 auto;

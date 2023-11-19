@@ -90,7 +90,7 @@ const Contact = () => {
                 autoComplete="off"
                 required
               />
-              <input className="inputBtn" type="submit" value="submit" />
+              <button className="inputBtn">submit</button>
             </form>
           </div>
         </div>

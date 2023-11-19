@@ -5,17 +5,13 @@ import Skill from "./Skill";
 
 const About = () => {
   const [about, setAbout] = useState("Education");
-  const buttonsArr = ["Education", "Skill"];
   return (
     <>
       <section className="aboutSection">
         <h2 className="aboutHeading">About <span>me</span></h2>
         <div className="buttonsBox">
-          {
-            buttonsArr.map((elements, index) => (
-              <button key={index} onClick={() => setAbout(elements) } >{elements}</button>
-            ))
-          }
+          <button className="btn1" onClick={(e) => setAbout(e.target.textContent)} >Education</button>
+          <button className="btn2" onClick={(e) => setAbout(e.target.textContent)} >Skill</button>
         </div>
         <div className="aboutdiv">
           {
