@@ -30,3 +30,8 @@
   border-bottom: 1px solid #000;
 }
 
+.navbarItems .items ul li .active{
+  color: #00A9FF;
+  border-bottom: 1px solid #000;
+}
+

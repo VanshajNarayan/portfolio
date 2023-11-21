@@ -11,7 +11,7 @@ const NavbarItems = ({ setShow, show }) => {
         <div className="items">
           <ul type="none">
             {liItems.map((items, index) => (
-              <li key={index}>
+              <li key={index} className="active">
                 <NavLink
                   to={items === "Home" ? "/" : items}
                   onClick={() => setShow(!show)}>
