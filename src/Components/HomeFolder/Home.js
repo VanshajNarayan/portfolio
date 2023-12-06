@@ -1,6 +1,7 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Home.css";
 import { NavLink } from "react-router-dom";
+import myPhoto from "./Professional photo.png";
 
 const Home = () => {
   const text = useTypewriter({
@@ -14,7 +15,9 @@ const Home = () => {
       <section className="heroSection">
         <div className="heroBox">
           <div className="imgBox">
-            <div className="imgborder"></div>
+            <div className="imgborder" >
+              <img src={myPhoto} alt="personal pic" />
+            </div>
           </div>
           <div className="textBox">
             <p

@@ -4,7 +4,7 @@ import { FiLinkedin } from "react-icons/fi";
 import "./NavbarItems.css";
 
 const NavbarItems = ({ setShow, show }) => {
-  const liItems = ["Home", "About", "Service", "Project", "Contact"];
+  const liItems = ["Home", "About", "Project", "Contact"];
   return (
     <>
       <div className="navbarItems">
