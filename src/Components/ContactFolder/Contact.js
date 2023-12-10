@@ -64,7 +64,7 @@ const Contact = () => {
               }}>
               Contact us !
             </h3>
-            <form action="">
+            <form action="https://formspree.io/f/xoqogkpb" method="post">
               <input
                 type="text"
                 name="text"
